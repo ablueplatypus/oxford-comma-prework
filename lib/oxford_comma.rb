@@ -6,6 +6,6 @@ def oxford_comma(array)
   elsif array.length > 2
     last_word = array.pop
     words = array.join(", ")
-    words + "and " + last_word
+    words + " and " + last_word
   end
 end
